@@ -1,0 +1,87 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(4px); /* добавляет размытие фона */
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(10, 10, 10, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+h2 {
+  margin-top: 40px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li a {
+  color: #00d0ff;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.game-block {
+  margin-bottom: 30px;
+}
+
+.gallery-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.gallery-image {
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #ccc;
+}
