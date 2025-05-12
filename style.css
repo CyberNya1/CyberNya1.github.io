@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #fff;
-  background: url('background.png') no-repeat center center fixed;
+  background: url('https://raw.githubusercontent.com/CyberNya1/CyberNya1.github.io/refs/heads/main/Media/background.png') no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(4px); /* добавляет размытие фона */
 }
